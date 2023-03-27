@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="d-flex justify-content-between px-2 px-xxl-5 py-1">
+        <div>
+          <h1 class="m-auto">Mikalto</h1>
+          <p class="secondary-font">Hotels & Resorts</p>
+        </div>
+        <button class="header-curent-page d-lg-none menu-trigger-btn">
+          Home
+        </button>
+        <ul
+          class="list-unstyled d-lg-flex gap-5 flex-lg-row d-none secondary-font text-primary"
+        >
+          <a href="#" target="_blank"> <li>Home</li> </a
+          ><a href="#" target="_blank "> <li>Our Page</li> </a
+          ><a href="#" target="_blank"> <li>Page</li> </a
+          ><a href="#" target="_blank"> <li>Features</li> </a
+          ><a href="#" target="_blank">
+            <li>Blog</li>
+          </a>
+          <a href="#" target="_blank">
+            <li>Contact</li>
+          </a>
+        </ul>
+        <div class="d-flex gap-2 language-selector-container">
+          <ul
+            class="list-unstyled d-flex gap-2 flex-column align-items-center secondary-font language-selector bg-white px-2"
+          >
+            <a href="#" target="_blank">
+              <li class="d-flex gap-2">
+                <span class="text-black link-primary">En</span>
+                <i class="fa fa-caret-down my-auto"></i>
+              </li> </a
+            ><a href="#" target="_blank" class="language-collapse">
+              <li class="text-black link-primary">Es</li> </a
+            ><a href="#" target="_blank" class="language-collapse">
+              <li class="text-black link-primary">Bn</li> </a
+            ><a href="#" target="_blank" class="language-collapse">
+              <li class="text-black link-primary">Hi</li>
+            </a>
+          </ul>
+          <a href=""><i class="fa fa-bag-shopping text-black"></i></a>
+        </div>
+      </nav>
+      <ul
+        class="list-unstyled d-flex d-none flex-column d-lg-none gap-4 secondary-font menu-container py-2 px-2 menu-closing-animation"
+      >
+        <li class="d-flex justify-content-between">
+          <span class="link-primary text-black">Home</span>
+          <button class="menu-collapse-btn btn-close"></button>
+        </li>
+        <a href="#" target="_blank"> <li>Our Page</li> </a
+        ><a href="#" target="_blank"> <li>Page</li> </a
+        ><a href="#" target="_blank"> <li>Features</li> </a
+        ><a href="#" target="_blank">
+          <li>Blog</li>
+        </a>
+        <a href="#" target="_blank">
+          <li>Contact</li>
+        </a>
+      </ul>
+    </header>
+    <section class="hero mx-2 mx-xxl-5">
+      <div class="hero-division-container">
+        <div class="d-flex flex-column gap-3 my-auto gap-lg-5">
+          <h2>
+            Enjoy your <br />
+            Dream vacation
+          </h2>
+          <p class="secondary-font">Quite and endlessly beautiful hideway</p>
+          <div class="secondary-font hero-about-us-container d-flex gap-4">
+            <a href="#" target="_blank" class="hero-about-us">About Us</a>
+            <a href="#" target="_blank" class="veiw-homestay"
+              >View Homestay -></a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column gap-3 gap-lg-5 availiblity-container secondary-font"
+        >
+          <h3 class="primary-fon availiblity-container-header">Search Rooms</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="date-check-in-out d-flex gap-5">
+            <div class="date-check-in d-flex flex-column gap-2">
+              <div class="d-flex">
+                <i class="fa fa-calendar my-auto"></i>
+                <span>Checkin*</span>
+              </div>
+              <input
+                class="d-block"
+                type="date"
+                name="date"
+                id=""
+                placeholder="Check-in-date"
+              />
+            </div>
+            <div class="date-check-out d-flex flex-column gap-2">
+              <div class="d-flex">
+                <i class="fa fa-calendar my-auto"></i>
+                <span>Checkout*</span>
+              </div>
+              <input
+                class="d-block"
+                type="date"
+                name="date"
+                id=""
+                placeholder="Check-in-date"
+              />
+            </div>
+          </div>
+          <div>
+            <i class="fa fa-person"></i>
+            <span>Adults</span>
+            <select name="" id="" class="d-block w-100 my-3">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">Others</option>
+            </select>
+          </div>
+          <div>
+            <i class="fa fa-child"></i>
+            <span>Childern</span>
+            <select name="" id="" class="d-block w-100">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">Others</option>
+            </select>
+          </div>
+          <button class="btn background-primary rounded-0 my-3">
+            Check Availiblity
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome container">
+      <div class="row d-lg-flex justify-content-center">
+        <div class="col-lg-6">
+          <span class="secondary-font">Welcome to</span>
+          <h2 class="mt-2 mb-4">The Mikalto Luxury & confort homestay</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+            voluptatibus. Totam deserunt aperiam quibusdam obcaecati quae, quas
+            ducimus consequuntur qui perferendis, eveniet nam facilis! Optio
+            magni error minima fuga quam sed dolor dicta ullam, praesentium,
+            vero quas dolorum laudantium facere.
+          </p>
+          <p class="signature">Joyrudra Biswas</p>
+          <p>Melinda Amanda - Hotel Manager</p>
+        </div>
+        <div class="collage-container col-lg-6 d-none d-lg-block">
+          <img
+            src="./assets/images/welcome/collage-image-2.jpg"
+            alt="collage-image"
+            class="collage-image-1"
+          />
+          <img
+            src="./assets/images/welcome/collage-image-1.jpg"
+            alt="collage-image"
+            class="collage-image-2"
+          /><img
+            src="./assets/images/welcome/collage-image-3.jpg"
+            alt="collage-image"
+            class="collage-image-3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="room-category-container swiper room-category-swiper">
+      <div class="swiper-wrapper">
+        <div
+          class="room-category-card d-flex flex-column-reverse flex-lg-row swiper-slide"
+        >
+          <div class="background-primary p-5 secondary-font">
+            <span class="room-category-tagline">ELEGANCE AND COMFORT</span>
+            <h2 class="primary-font">Standard Room</h2>
+            <p>From:<span>$150/night</span></p>
+            <p class="overflow-x-scroll">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              odio!
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex justify-content-between">
+                <span>Bed:</span><span>Queen Size Bed</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Capacity:</span>
+                <span>2 Adults, 1 Childern</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Room Size:</span><span>55sqm</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>View</span><span>Garden</span>
+              </li>
+            </ul>
+            <a href="#" target="_blank" class="">View Detail</a>
+          </div>
+          <img
+            class=""
+            src="./assets/images/room-category/room-category-img-1.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="room-category-card d-flex flex-column-reverse flex-lg-row swiper-slide"
+        >
+          <div class="background-primary p-5 secondary-font">
+            <span class="room-category-tagline">ELEGANCE AND COMFORT</span>
+            <h2 class="primary-font">Standard Room</h2>
+            <p>From:<span>$150/night</span></p>
+            <p class="overflow-x-scroll">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              odio!
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex justify-content-between">
+                <span>Bed:</span><span>Queen Size Bed</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Capacity:</span>
+                <span>2 Adults, 1 Childern</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Room Size:</span><span>55sqm</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>View</span><span>Garden</span>
+              </li>
+            </ul>
+            <a href="#" target="_blank" class="">View Detail</a>
+          </div>
+          <img
+            class=""
+            src="./assets/images/room-category/room-category-img-2.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="room-category-card d-flex flex-column-reverse flex-lg-row swiper-slide"
+        >
+          <div class="background-primary p-5 secondary-font">
+            <span class="room-category-tagline">ELEGANCE AND COMFORT</span>
+            <h2 class="primary-font">Standard Room</h2>
+            <p>From:<span>$150/night</span></p>
+            <p class="overflow-x-scroll">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              odio!
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex justify-content-between">
+                <span>Bed:</span><span>Queen Size Bed</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Capacity:</span>
+                <span>2 Adults, 1 Childern</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Room Size:</span><span>55sqm</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>View</span><span>Garden</span>
+              </li>
+            </ul>
+            <a href="#" target="_blank" class="">View Detail</a>
+          </div>
+          <img
+            class=""
+            src="./assets/images/room-category/room-category-img-3.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="room-category-card d-flex flex-column-reverse flex-lg-row swiper-slide"
+        >
+          <div class="background-primary p-5 secondary-font">
+            <span class="room-category-tagline">ELEGANCE AND COMFORT</span>
+            <h2 class="primary-font">Standard Room</h2>
+            <p>From:<span>$150/night</span></p>
+            <p class="overflow-x-scroll">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              odio!
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex justify-content-between">
+                <span>Bed:</span><span>Queen Size Bed</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Capacity:</span>
+                <span>2 Adults, 1 Childern</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Room Size:</span><span>55sqm</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>View</span><span>Garden</span>
+              </li>
+            </ul>
+            <a href="#" target="_blank" class="">View Detail</a>
+          </div>
+          <img
+            class=""
+            src="./assets/images/room-category/room-category-img-4.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="why-choose-us container my-3">
+      <div class="row">
+        <h2 class="text-center text-lg-start why-choose-us-header">
+          Why Choose our Hotel?
+        </h2>
+        <div class="d-flex gap-4 col-lg-3 offset-lg-1">
+          <i class="why-choose-us-icon fa fa-bowl-food"></i>
+          <div class="">
+            <h2 class="Unique Cuisine secondary-font">Unique Cuisine</h2>
+            <p class="secondary-font">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              aut pariatur vero voluptatem aperiam dolore iusto quaerat totam ab
+              facilis?
+            </p>
+          </div>
+        </div>
+        <div class="d-flex gap-4 col-lg-3 offset-lg-1">
+          <i class="why-choose-us-icon fa fa-bowl-food"></i>
+          <div class="">
+            <h2 class="Yoga and Gym secondary-font">Yoga and Gym</h2>
+            <p class="secondary-font">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              aut pariatur vero voluptatem aperiam dolore iusto quaerat totam ab
+              facilis?
+            </p>
+          </div>
+        </div>
+        <div class="d-flex gap-4 col-lg-3 offset-lg-1">
+          <i class="why-choose-us-icon fa fa-location-dot"></i>
+          <div class="">
+            <h2 class="Perfect Location secondary-font">Perfect Location</h2>
+            <p class="secondary-font">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              aut pariatur vero voluptatem aperiam dolore iusto quaerat totam ab
+              facilis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="other-activities my-5">
+      <div
+        class="other-activities-card d-flex flex-column flex-lg-row background-primary"
+      >
+        <div class="p-5 my-auto">
+          <p class="secondary-font text-danger-emphasis">Other Activities</p>
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
+            quidem.
+          </h2>
+          <p class="secondary-font my-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+            sequi natus quia quis error rem ad amet exercitationem consectetur
+            deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Architecto libero labore nemo dignissimos pariatur fugiat ratione
+            neque rerum cum atque! Maxime distinctio assumenda nihil totam
+            voluptatem esse veritatis libero tempore!
+          </p>
+          <a href="#" target="_blank" class="secondary-font">Explore More -></a>
+        </div>
+        <img
+          src="./assets/images/other-activities/other-activities-1.jpg"
+          alt=""
+        />
+      </div>
+      <div
+        class="other-activities-card d-flex flex-column flex-lg-row-reverse background-primary"
+      >
+        <div class="p-5 my-auto">
+          <p class="secondary-font text-danger-emphasis">Other Activities</p>
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
+            quidem.
+          </h2>
+          <p class="secondary-font mt-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+          <ul class="mb-5">
+            <li>Thermal water and ancient baths</li>
+            <li>Turkish Baths</li>
+            <li>Turkish sauna</li>
+            <li>Relax and message therapy</li>
+          </ul>
+          <a href="#" target="_blank" class="secondary-font book-your-stay"
+            >Book your Stay</a
+          >
+        </div>
+        <img
+          src="./assets/images/other-activities/other-activities-2.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="experience-matters">
+      <p class="secondary-font text-center primary-text">Experience Matters</p>
+      <h2 class="text-center my-5">
+        Escape from the world and see the experience before you<br />
+        feel it. Discover the Luxury of Hotel Mikalto
+      </h2>
+      <div
+        class="experience-matters-card d-flex flex-column flex-lg-row justify-content-around align-items-center gap-4"
+      >
+        <div class="experience-matters-card">
+          <img
+            src="./assets/images/experience-matters/experiance-matters-1.jpg"
+            alt=""
+          />
+          <p class="secondary-font">WELLNESS</p>
+          <h2>Dedicated to wellness</h2>
+          <p class="secondary-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero
+            consequatur esse quos? Nesciunt a labore id, neque velit voluptates
+            voluptatum numquam odit ipsa eveniet? Voluptate ipsam esse fugit
+            deserunt.
+          </p>
+          <a href="#" target="_blank" class="secondary-font"
+            >Discover More -></a
+          >
+        </div>
+        <div class="experience-matters-card">
+          <img
+            src="./assets/images/experience-matters/experiance-matters-2.jpg"
+            alt=""
+          />
+          <p class="secondary-font">WELLNESS</p>
+          <h2>Dedicated to wellness</h2>
+          <p class="secondary-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero
+            consequatur esse quos? Nesciunt a labore id, neque velit voluptates
+            voluptatum numquam odit ipsa eveniet? Voluptate ipsam esse fugit
+            deserunt.
+          </p>
+          <a href="#" target="_blank" class="secondary-font"
+            >Discover More -></a
+          >
+        </div>
+        <div class="experience-matters-card">
+          <img
+            src="./assets/images/experience-matters/experiance-matters-3.jpg"
+            alt=""
+          />
+          <p class="secondary-font">WELLNESS</p>
+          <h2>Dedicated to wellness</h2>
+          <p class="secondary-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero
+            consequatur esse quos? Nesciunt a labore id, neque velit voluptates
+            voluptatum numquam odit ipsa eveniet? Voluptate ipsam esse fugit
+            deserunt.
+          </p>
+          <a href="#" target="_blank" class="secondary-font"
+            >Discover More -></a
+          >
+        </div>
+        <div class="experience-matters-card">
+          <img
+            src="./assets/images/experience-matters/experiance-matters-4.jpg"
+            alt=""
+          />
+          <p class="secondary-font">WELLNESS</p>
+          <h2>Dedicated to wellness</h2>
+          <p class="secondary-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero
+            consequatur esse quos? Nesciunt a labore id, neque velit voluptates
+            voluptatum numquam odit ipsa eveniet? Voluptate ipsam esse fugit
+            deserunt.
+          </p>
+          <a href="#" target="_blank" class="secondary-font"
+            >Discover More -></a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center my-5 secondary-font">
+        <a href="#" target="_blank" class="view-all-activities"
+          >View All Activities</a
+        >
+      </div>
+    </section>
+    <section class="say-hello p-5">
+      <div
+        class="bg-white p-5 say-hello-card d-flex justify-content-end flex-column gap-4"
+      >
+        <h2>
+          Say Hello<br />
+          to a new World
+        </h2>
+        <p class="secondary-font">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, unde
+          voluptatem eligendi veritatis facere cum, asperiores ipsum fuga
+          repudiandae delectus corporis dicta impedit, in odit explicabo fugit
+          placeat nihil quisquam.
+        </p>
+        <a href="#" target="_blank" class="secondary-font discover-more"
+          >Discover More -></a
+        >
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/imageOperations.js"></script>
+  </body>
+</html>
