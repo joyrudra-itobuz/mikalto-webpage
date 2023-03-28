@@ -42,7 +42,7 @@
           Home
         </button>
         <ul
-          class="list-unstyled d-lg-flex gap-5 flex-lg-row d-none secondary-font text-primary"
+          class="list-unstyled d-lg-flex gap-5 flex-lg-row d-none secondary-font text-primary my-auto"
         >
           <a href="#" target="_blank"> <li>Home</li> </a
           ><a href="#" target="_blank "> <li>Our Page</li> </a
@@ -56,23 +56,15 @@
           </a>
         </ul>
         <div class="d-flex gap-2 language-selector-container">
-          <ul
-            class="list-unstyled d-flex gap-2 flex-column align-items-center secondary-font language-selector bg-white px-2"
-          >
-            <a href="#" target="_blank">
-              <li class="d-flex gap-2">
-                <span class="text-black link-primary">En</span>
-                <i class="fa fa-caret-down my-auto"></i>
-              </li> </a
-            ><a href="#" target="_blank" class="language-collapse">
-              <li class="text-black link-primary">Es</li> </a
-            ><a href="#" target="_blank" class="language-collapse">
-              <li class="text-black link-primary">Bn</li> </a
-            ><a href="#" target="_blank" class="language-collapse">
-              <li class="text-black link-primary">Hi</li>
-            </a>
-          </ul>
-          <a href=""><i class="fa fa-bag-shopping text-black"></i></a>
+          <select name="language-selector" id="" class="bg-white px-2 border-0">
+            <option value="EN">EN</option>
+            <option value="BN">BN</option>
+            <option value="HI">HI</option>
+            <option value="ES">ES</option>
+          </select>
+          <a href="#" target="_blank" class="my-auto"
+            ><i class="fa fa-bag-shopping text-black"></i
+          ></a>
         </div>
       </nav>
       <ul
@@ -114,7 +106,7 @@
         >
           <h3 class="primary-fon availiblity-container-header">Search Rooms</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <div class="date-check-in-out d-flex gap-5">
+          <div class="date-check-in-out d-flex flex-column flex-md-row gap-5">
             <div class="date-check-in d-flex flex-column gap-2">
               <div class="d-flex">
                 <i class="fa fa-calendar my-auto"></i>
@@ -626,6 +618,229 @@
         </p>
       </div>
     </section>
+
+    <section class="location container mb-5 my-lg-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="./assets/images/location/flower.png"
+            alt="flower-image"
+            class="d-block"
+          />
+          <span class="secondary-font color-primary">Getting Here</span>
+          <h2 class="location-header">How to get There?</h2>
+          <p class="location-description secondary-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            exercitationem, sed porro nihil ipsum molestiae iusto! Pariatur sit
+            dignissimos, hic saepe numquam assumenda nobis delectus ipsam.
+          </p>
+          <div class="secondary-font">
+            <div class="d-flex gap-4 location-instruction-card">
+              <i class="fa fa-plane fs-1"></i>
+              <div class="">
+                <h3>By Plane</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, aliquid?
+                </p>
+              </div>
+            </div>
+            <div class="d-flex gap-4 location-instruction-card">
+              <i class="fa fa-bus fs-1"></i>
+              <div class="">
+                <h3>By Bus</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, aliquid?
+                </p>
+              </div>
+            </div>
+            <div class="d-flex gap-4 location-instruction-card">
+              <i class="fa fa-cab fs-1"></i>
+              <div class="">
+                <h3>By van</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, aliquid?
+                </p>
+              </div>
+            </div>
+            <a href="#" target="_blank" class="secondary-font discover-more"
+              >Discover More -></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3684.0439015294046!2d88.4314106!3d22.5774613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a5466e0099%3A0x563fb49fb6394261!2sItobuz%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1679979900962!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="promotion container-fluid pb-lg-5">
+      <div class="row">
+        <div class="promotion-images-container col-lg-7 d-flex gap-4 shadow-lg">
+          <img
+            class="prmotion-image-1 col-lg-8"
+            src="./assets/images/promotion/prmotion-image-1.jpg"
+            alt=""
+          />
+          <div
+            class="col-lg-4 d-flex flex-column gap-4 my-auto overflow-hidden"
+          >
+            <img
+              class="prmotion-image-2"
+              src="./assets/images/promotion/prmotion-image-2.jpg"
+              alt=""
+            />
+            <img
+              class="prmotion-image-3 overflow-hidden"
+              src="./assets/images/promotion/prmotion-image-3.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <p class="secondary-font">SPA & WELLNESS</p>
+          <h2>Side by Side with Nature</h2>
+          <p class="mb-5 secondary-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            quaerat autem distinctio facere ut laudantium sapiente pariatur
+            temporibus, similique quibusdam.
+          </p>
+          <a href="#" target="_blank" class="join-us">Join Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-container secondary-font container">
+      <div class="row text-center">
+        <p class="form-container-tagline">STORIES DEVELOPED STRAIGHT</p>
+        <h2 class="primary-font">Get news and update to your inbox</h2>
+        <div
+          class="subscribe-form col-6 offset-3 d-flex flex-column flex-lg-row gap-3 gap-lg-0 my-4 justify-content-between"
+        >
+          <input
+            type="email"
+            class="form-control"
+            id="subcribeEmail"
+            aria-describedby="emailHelp"
+            placeholder="Enter your Email Address..."
+          />
+          <button class="background-primary subscribe-btn">Subscribe</button>
+        </div>
+        <p>
+          Will be used in accordance to our
+          <a href="#" target="_blank" class="text-black"> Privacy Policy</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer secondary-font footer-font-size">
+      <div class="d-lg-flex flex-wrap justify-content-lg-between">
+        <div class="footer-follow-us">
+          <div class="d-flex footer-header-main-name d-flex flex-column">
+            <h2 class="primary-font">MIKALTO</h2>
+            <span>Hotel and Resorts</span>
+          </div>
+          <p class="secondary-font my-3">
+            Lorem ipsum, dolor <br />
+            sit amet consectetur <br />
+            adipisicing elit. Non, <br />
+            voluptas.Lorem ipsum dolor <br />
+            sit amet consectetur adipisicing
+          </p>
+          <div class="secondary-font footer-follow-us-container d-flex gap-3">
+            <h3 class="fs-6">Follow Us:</h3>
+            <ul class="d-flex gap-2 text-white">
+              <a href="#" target="_blank">
+                <li class="fa-brands fa-facebook"></li> </a
+              ><a href="#" target="_blank">
+                <li class="fa-brands fa-twitter"></li> </a
+              ><a href="#" target="_blank">
+                <li class="fa-brands fa-instagram"></li> </a
+              ><a href="#" target="_blank">
+                <li class="fa-brands fa-youtube"></li> </a
+              ><a href="#" target="_blank"
+                ><li class="fa-brands fa-pinterest"></li
+              ></a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-about my-3 my-lg-0">
+          <h3 class="fs-6 mb-3">About</h3>
+          <ul class="list-unstyled">
+            <a href="#" target="_blank"> <li>About Us</li> </a
+            ><a href="#" target="_blank"> <li>Careers</li> </a
+            ><a href="#" target="_blank"> <li>Contact Us</li> </a
+            ><a href="#" target="_blank"> <li>Blog</li> </a
+            ><a href="#" target="_blank">
+              <li>Gift Cards</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footer-about my-3 my-lg-0">
+          <h3 class="fs-6 mb-3">Services</h3>
+          <ul class="list-unstyled">
+            <a href="#" target="_blank"> <li>Spa</li> </a
+            ><a href="#" target="_blank"> <li>Experience</li> </a
+            ><a href="#" target="_blank"> <li>Wedding</li> </a
+            ><a href="#" target="_blank"> <li>Dancing</li> </a
+            ><a href="#" target="_blank">
+              <li>Event</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footer-about my-3 my-lg-0">
+          <h3 class="fs-6 mb-3">Quick Links</h3>
+          <ul class="list-unstyled">
+            <a href="#" target="_blank"> <li>Facilities</li> </a
+            ><a href="#" target="_blank"> <li>Accomodation</li> </a
+            ><a href="#" target="_blank"> <li>Reservation</li> </a
+            ><a href="#" target="_blank"> <li>Why Choose Us</li> </a
+            ><a href="#" target="_blank">
+              <li>Our Restaurant</li>
+            </a>
+          </ul>
+        </div>
+        <div class="d-flex flex-column">
+          <h3 class="fs-6 mb-3">Contact Us</h3>
+          <span class="mt-4">Total free Customer Support</span>
+          <span class="mb-4">(+123)1500-888-999</span>
+          <span>Need Live Support?</span>
+          <span>reservation@mikalto.com</span>
+        </div>
+      </div>
+      <div
+        class="footer-copyright d-flex flex-column flex-lg-row gap-3 justify-content-between mt-3 pt-3 border-top"
+      >
+        <span>Copyright © 2022 Mikalto JWS</span>
+        <ul class="list-unstyled d-flex gap-3">
+          <a href="#" target="_blank"> <li>Privacy</li> </a
+          ><a href="#" target="_blank"> <li>Terms</li> </a
+          ><a href="#" target="_blank">
+            <li>Sitemap</li>
+          </a>
+        </ul>
+        <div>
+          <i class="fa fa-globe"></i>
+          <select>
+            <option value="EN">EN</option>
+            <option value="BN">BN</option>
+            <option value="HI">HI</option>
+            <option value="SP">SP</option>
+          </select>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>

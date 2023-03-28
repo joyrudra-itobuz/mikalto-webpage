@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("./header.css");
 @import url("./hero.css");
 @import url("./welcome.css");
 @import url("./room-category.css");
@@ -6,13 +7,12 @@
 @import url("./other-activities.css");
 @import url("./experience-matters.css");
 @import url("./say-hello.css");
-@import url("./header.css");
 @import url("./testimonials.css");
 @import url("./location.css");
-/* font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Work Sans', sans-serif; */
+@import url("./promotion.css");
+@import url("./form-container.css");
+@import url("./footer.css");
+
 :root {
   --color-primary: white;
   --color-secondary: rgb(26, 26, 26);
@@ -27,17 +27,24 @@ font-family: 'Work Sans', sans-serif; */
   background-color: var(--background-primary) !important;
   color: white !important;
 }
+
+.color-primary {
+  color: var(--background-primary);
+}
+
 html body {
   font-family: "Playfair Display", serif;
 }
 
 html body h1 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 html body .secondary-font {
   font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  padding-left: 0.8rem;
 }
 
 html body .primary-font {

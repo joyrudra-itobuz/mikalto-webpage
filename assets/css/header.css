@@ -9,9 +9,8 @@ header {
 .header-curent-page {
   all: unset;
   font-size: 25px;
-  /* margin-top: 0.2rem; */
   margin-bottom: 2rem;
-  margin-left: -3.5em;
+
   padding: 0 0.5rem;
 }
 
@@ -23,7 +22,6 @@ header {
 
 header ul a {
   all: unset;
-  font-weight: 500;
   cursor: pointer;
   color: rgb(0, 28, 79);
   transition: all 0.3s;
@@ -46,12 +44,6 @@ html body .language-collapse {
   position: fixed;
   top: 0.5rem;
   right: 2.5rem;
-}
-
-@media screen and (min-width: 1400px) {
-  .language-selector {
-    right: 4.5rem;
-  }
 }
 
 .language-selector:hover .language-collapse {
@@ -94,5 +86,11 @@ html body .language-collapse {
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .language-selector {
+    right: 4.5rem;
   }
 }
