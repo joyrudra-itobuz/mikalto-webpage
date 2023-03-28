@@ -28,7 +28,13 @@ header ul a {
 }
 
 header ul a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(4, 96, 255);
+}
+
+body .menu-container a,
+.menu-container span {
+  color: var(--color-primary);
+  font-size: 1rem;
 }
 
 html body .language-collapse {
@@ -36,14 +42,12 @@ html body .language-collapse {
   margin-left: -1rem;
 }
 
-.language-selector-container {
-  position: relative;
+.language-selector-container i {
+  margin-top: 1rem;
 }
 
 .language-selector {
-  position: fixed;
-  top: 0.5rem;
-  right: 2.5rem;
+  margin-top: -2rem;
 }
 
 .language-selector:hover .language-collapse {
@@ -54,13 +58,14 @@ html body .language-collapse {
   display: none;
 }
 
-.menu-container {
+body header .menu-container {
   position: fixed;
-  background-color: rgb(255, 192, 114);
+  background-color: rgb(24, 47, 87);
+  color: white;
   top: 0;
   width: 70%;
   height: 100vh;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .menu-openning-animation {
@@ -89,8 +94,12 @@ html body .language-collapse {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 992px) {
+  .language-selector-container i {
+    margin-top: 2rem;
+  }
+
   .language-selector {
-    right: 4.5rem;
+    margin-top: 0rem;
   }
 }
