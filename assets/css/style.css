@@ -6,6 +6,9 @@
 @import url("./other-activities.css");
 @import url("./experience-matters.css");
 @import url("./say-hello.css");
+@import url("./header.css");
+@import url("./testimonials.css");
+@import url("./location.css");
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Mono', monospace;
@@ -42,102 +45,3 @@ html body .primary-font {
 }
 
 /* header */
-
-header {
-  position: fixed;
-  top: 0;
-  background-color: white;
-  width: 100%;
-  z-index: 99;
-}
-
-.header-curent-page {
-  all: unset;
-  font-size: 25px;
-  /* margin-top: 0.2rem; */
-  margin-bottom: 2rem;
-  margin-left: -3.5em;
-  padding: 0 0.5rem;
-}
-
-.header-curent-page:hover {
-  background-color: rgb(107, 107, 255);
-  color: white;
-  border-radius: 2rem;
-}
-
-header ul a {
-  all: unset;
-  font-weight: 500;
-  cursor: pointer;
-  color: rgb(0, 28, 79);
-  transition: all 0.3s;
-}
-
-header ul a:hover {
-  color: rgb(255, 255, 255);
-}
-
-html body .language-collapse {
-  display: none;
-  margin-left: -1rem;
-}
-
-.language-selector-container {
-  position: relative;
-}
-
-.language-selector {
-  position: fixed;
-  top: 0.5rem;
-  right: 2.5rem;
-}
-
-@media screen and (min-width: 1400px) {
-  .language-selector {
-    right: 4.5rem;
-  }
-}
-
-.language-selector:hover .language-collapse {
-  display: block;
-}
-
-.nav-active {
-  display: none;
-}
-
-.menu-container {
-  position: fixed;
-  background-color: rgb(255, 192, 114);
-  top: 0;
-  width: 70%;
-  height: 100vh;
-  font-size: 1.5rem;
-}
-
-.menu-openning-animation {
-  animation: menu-openning-animation 0.5s;
-}
-
-@keyframes menu-openning-animation {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.menu-closing-animation {
-  animation: menu-closing-animation 0.5s;
-}
-
-@keyframes menu-closing-animation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
