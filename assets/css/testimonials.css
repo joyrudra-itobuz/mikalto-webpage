@@ -7,15 +7,15 @@
 }
 
 .testimonials-card-1 a span {
-  background-image: url("../images/testimonials/profile-1.jpg");
+  background-image: url("http://127.0.0.1:5050/images_testimonials_profile-1");
 }
 
 .testimonials-card-2 a span {
-  background-image: url("../images/testimonials/profile-2.jpg");
+  background-image: url("http://127.0.0.1:5050/images_testimonials_profile-2");
 }
 
 .testimonials-card-3 a span {
-  background-image: url("../images/testimonials/profile-3.jpg");
+  background-image: url("http://127.0.0.1:5050/images_testimonials_profile-3");
 }
 
 .testimonial-date {
