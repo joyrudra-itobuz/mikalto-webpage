@@ -33,13 +33,27 @@ html body {
   all: unset;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
-  color: black;
+  color: var(--background-primary);
+  border: 2px solid white;
   padding: 0.5rem 2rem;
+  transition: all 0.5s;
+}
+
+.hero-about-us:hover {
+  background-color: var(--background-primary);
+  border: 2px solid white;
+  color: white;
 }
 
 .veiw-homestay {
   all: unset;
+  cursor: pointer;
   margin: auto 0;
+}
+
+.veiw-homestay:hover {
+  text-decoration: underline;
+  color: var(--background-primary);
 }
 
 .availiblity-container {
@@ -54,9 +68,6 @@ html body {
   color: rgb(78, 78, 78);
 }
 
-.availiblity-container input {
-}
-
 .availiblity-container select {
   list-style: lower-greek;
   border: 0;
@@ -66,6 +77,17 @@ html body {
 
 .availiblity-container select:focus {
   outline: none;
+}
+
+.check-availiblity-btn {
+  transition: all 0.5s !important;
+  border: 2px solid var(--background-primary) !important;
+}
+
+.check-availiblity-btn:hover {
+  background-color: white !important;
+  color: var(--background-primary) !important;
+  border: 2px solid var(--background-primary) !important;
 }
 
 @media screen and (min-width: 1024px) {

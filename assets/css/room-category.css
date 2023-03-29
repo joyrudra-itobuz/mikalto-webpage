@@ -5,13 +5,47 @@
   border: 2px solid white;
   transition: color 0.5s;
 }
+
+.carousel-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-image-container img {
+  width: 100%;
+}
+
 .room-category-card a:hover {
   background-color: white;
   color: black;
 }
 
+.fa-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: white;
+  font-size: 3rem;
+}
+
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: white;
+  font-size: 3rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  all: unset;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 50%;
+}
+
 @media screen and (min-width: 992px) {
   .room-category-card img {
-    max-width: 65%;
+    max-width: 100%;
   }
 }

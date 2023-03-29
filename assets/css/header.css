@@ -6,12 +6,16 @@ header {
   z-index: 99;
 }
 
+.brand-tag {
+  padding-left: 0.8rem;
+}
+
 .header-curent-page {
   all: unset;
   font-size: 25px;
   margin-bottom: 2rem;
-
   padding: 0 0.5rem;
+  margin-left: -1.5rem;
 }
 
 .header-curent-page:hover {

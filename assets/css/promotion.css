@@ -31,10 +31,18 @@
 
 .promotion .join-us {
   all: unset;
+  cursor: pointer;
   background-color: var(--background-primary);
   color: white;
   padding: 0.5rem 3rem;
   font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+  border: 2px solid var(--background-primary);
+}
+
+.promotion .join-us:hover {
+  background-color: transparent;
+  color: var(--background-primary);
 }
 
 @media screen and (min-width: 992px) {

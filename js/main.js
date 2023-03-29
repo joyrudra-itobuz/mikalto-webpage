@@ -22,10 +22,7 @@ menuCollapseBtn.addEventListener("click", () => {
 
 const swiper = new Swiper(".room-category-swiper", {
   cssMode: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",

@@ -21,6 +21,10 @@
   padding-left: 1rem;
 }
 
+.form-container input:focus {
+  outline: none;
+}
+
 .subscribe-form {
   padding: 0.6rem;
   border: 1px solid rgba(128, 128, 128, 0.42);
@@ -28,8 +32,13 @@
 
 .subscribe-btn {
   all: unset;
-
   padding: 0.7rem 3rem;
+  transition: all 0.5s;
+  border: 2px solid var(--background-primary);
+}
+.subscribe-btn:hover {
+  background-color: transparent !important;
+  color: var(--background-primary) !important;
 }
 
 @media screen and (min-width: 992px) {
