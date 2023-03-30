@@ -14,9 +14,6 @@ const subscriberEmail = document.querySelector(".subcriber-email");
 const subscribeBtn = document.querySelector(".subscribe-btn");
 const formContainer = document.querySelector("body");
 
-console.log(subscriberEmail);
-console.log(subscribeBtn);
-
 subscribeBtn.addEventListener("click", () => {
   let subscriberEmailValue = subscriberEmail.value;
   console.log(subscriberEmailValue);
