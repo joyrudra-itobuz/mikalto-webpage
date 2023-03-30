@@ -39,6 +39,10 @@
   color: black;
 }
 
+.room-category-view-details {
+  max-width: 100%;
+}
+
 .fa-arrow-left {
   position: absolute;
   top: 50%;
@@ -66,5 +70,8 @@
 @media screen and (min-width: 992px) {
   .room-category-card img {
     max-width: 100%;
+  }
+  .room-category-view-details {
+    max-width: 25% !important;
   }
 }
