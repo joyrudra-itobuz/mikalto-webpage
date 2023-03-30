@@ -13,7 +13,14 @@
   transition: color 0.5s;
 }
 
-.room-category-tagline {
+.room-price {
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}
+
+.room-category-tagline,
+.text-danger-style {
   color: rgb(255, 196, 189);
   letter-spacing: 2px;
 }
