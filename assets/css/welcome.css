@@ -15,10 +15,9 @@ html body .welcome {
 }
 
 .welcome .signature {
-  padding: 0rem 0 4rem 0;
-
+  padding: 0rem 0 2rem 0;
   font-size: 3rem;
-  transform: rotate(-20deg);
+  transform: rotate(-10deg);
   font-family: "Dancing Script", cursive;
 }
 

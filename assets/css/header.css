@@ -54,8 +54,8 @@ html body .language-collapse {
   margin-top: -2rem;
 }
 
-.language-selector:hover .language-collapse {
-  display: block;
+.language-selector:focus {
+  outline: none;
 }
 
 .nav-active {

@@ -1,4 +1,5 @@
 //Nav Controller
+console.log("Starts Main");
 
 const menuBtn = document.querySelector(".menu-trigger-btn");
 const menuContainer = document.querySelector(".menu-container");

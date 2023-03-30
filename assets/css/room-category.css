@@ -1,9 +1,21 @@
+.room-category-card .background-primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .room-category-card a {
   all: unset;
   cursor: pointer;
   padding: 0.5rem 2rem;
   border: 2px solid white;
   transition: color 0.5s;
+}
+
+.room-category-tagline {
+  color: rgb(255, 196, 189);
+  letter-spacing: 2px;
 }
 
 .carousel-image-container {

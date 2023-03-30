@@ -10,13 +10,6 @@ const noOfChildren = document.querySelector(".children-select");
 const checkAvailiblityBtn = document.querySelector(".check-availiblity-btn");
 
 checkAvailiblityBtn.addEventListener("click", () => {
-  console.log(
-    checkInDate.value,
-    checkOutDate.value,
-    noOfAdults.value,
-    noOfChildren.value
-  );
-
   const bookingDetails = [];
 
   bookingDetails.push(
@@ -25,6 +18,7 @@ checkAvailiblityBtn.addEventListener("click", () => {
     { noOfAdults: noOfAdults.value },
     { noOfChildren: noOfChildren.value }
   );
+
   fetch("http://127.0.0.1:5050/submit-date", {
     method: "POST",
     headers: {
